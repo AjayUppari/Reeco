@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "imageUrl": "https://res.cloudinary.com/dymdlu50w/image/upload/v1698383484/Chicken-Biryani_a47iog.jpg",
+      "productName": "Chicken Biryani",
+      "brand": "Mehfil",
+      "price": 300,
+      "quantity": 2,
+      "status": "NONE",
+      "id": 1,
+      "isApproved": ""
+    },
+    {
+      "imageUrl": "https://res.cloudinary.com/dymdlu50w/image/upload/v1698334157/fish_fry_xkynrv.jpg",
+      "productName": "Fish fry",
+      "brand": "Salmon",
+      "price": 400,
+      "quantity": 1,
+      "status": "NONE",
+      "id": 2,
+      "isApproved": ""
+    },
+    {
+      "imageUrl": "https://res.cloudinary.com/dymdlu50w/image/upload/v1698241015/Avocado_Hass_cvnqmd.jpg",
+      "productName": "Avocado",
+      "brand": "Fresh Mart",
+      "price": 150,
+      "quantity": 5,
+      "status": "NONE",
+      "id": 3,
+      "isApproved": ""
+    },
+    {
+      "imageUrl": "https://res.cloudinary.com/dymdlu50w/image/upload/v1698334769/Paneer-butter-masala-recipe-3-500x500_mxswyw.jpg",
+      "productName": "Paneer Butter Masala",
+      "brand": "Fresh Mart",
+      "price": 280,
+      "quantity": 1,
+      "status": "NONE",
+      "id": 4,
+      "isApproved": ""
+    },
+    {
+      "imageUrl": "https://res.cloudinary.com/dymdlu50w/image/upload/v1698335127/manchuria_vy6qwg.jpg",
+      "productName": "Manchuria",
+      "brand": "Haldirams",
+      "price": 130,
+      "quantity": 3,
+      "status": "NONE",
+      "id": 5,
+      "isApproved": ""
+    }
+  ]
+}

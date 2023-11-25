@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #1a4d28;
+  color: white;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.cart {
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.navItem {
+  margin-right: 45px;
+  font-size: 18px;
+}
+
+.logo {
+  font-size: 28px;
+  font-family: 'Berlin Sans FB Demi';
+  cursor: pointer;
+}
+
+.orderDetails {
+  display: flex;
+  align-items: center;
+}
+
+span {
+  margin-right: 5px;
+}
+
+.orderContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-shadow: 5px 2px 8px 0px #737475;
+}
+
+.approveOrderContainer {
+  margin-top: auto;
+}
+
+.orders {
+  display: flex;
+  align-items: center;
+}
+
+.backButton {
+  border: 1px solid #1a4d28;
+  border-radius: 23px;
+  color: #1a4d28;
+  background-color: white;
+  font-weight: bold;
+  padding: 10px;
+  width: 75px;
+  margin-right: 10px;
+}
+
+.approveOrderButton {
+  background-color: #1a4d28;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 23px;
+  border: 0px;
+  width: 130px;
+}
+
+.ordersListContainer {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
+}
+
+.topContainer {
+  border: 2px solid #d4d4d4;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  background-color: white;
+  display: flex;
+}
+
+.opContainerItem {
+  width: 200px;
+}
+
+.smallHeading {
+  font-weight: bold;
+  font-size: 12px;
+  color: #737475;
+}
+
+.bigHeading {
+  font-weight: bold;
+  font-size: 15px;
+  color: #383838;
+}
+
+.vl {
+  border-left: 3px solid #d4d4d4;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bottomContainer {
+  border: 2px solid #d4d4d4;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.searchAndAddItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.addItemContainer {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar {
+  border: 1px solid #c0c2c4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+  width: 350px;
+  padding: 15px;
+}
+
+input {
+  border: 0px;
+  outline: none;
+  width: 100%;
+}
+
+.addItemButton {
+  width: 100px;
+}
+
+.printer {
+  color: #1a4d28;
+  height: 30px;
+  width: 30px;
+}
+
+.ordersTable {
+  border: 1px solid #c0c2c4;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+}
+
+th {
+  text-align: center;
+}
+
+.productName {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.status {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.statusButton {
+  margin: 8px;
+}
+
+.avocado {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: white;
+  border: 0px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.closeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.row {
+  display: flex;
+}
